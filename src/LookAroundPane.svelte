@@ -10,7 +10,7 @@
     let yMoveVal = 0;
     let unsubsX, unsubsY;
 
-    let scaleFactor = 1.4; // Change this to adjust the scale of the image
+    let scaleFactor = 1.5; // Change this to adjust the scale of the image
 
     let video;
     let displaySize;
@@ -81,4 +81,4 @@
 </style>
 
 <video bind:this={video} style="position: absolute; object-fit: fill;" id="video" width="720" height="720" autoplay muted playsinline></video>
-<img src="/static/images/citySkyline.jpg" alt="Immersive Display Image" class="image-display" style="--transformStyle: {transformStyle}" />
+<img src="/static/images/newYork.jpg" alt="Immersive Display Image" class="image-display" style="--transformStyle: {transformStyle}" />
